@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+                      USER DIRECTORY
+                      --------------
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Objective
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+Create an Employee Directory using Components State tha responds to User Events , e.g. Sort / Filter .
 
-### `npm start`
+## Software Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+REACT / AXIOS
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The application base was a REACT app that would display a list of employees from a user site where certain information would be listed for each person , e.g., name , date of birth , phone , etc and the user would be able to manipulate the information using sorting / filtering options based on name / phone number . The " sort " routine would give the user the option of Ascending / Descending order and the filter option was applied to the the phone information where employees were displayed based on a similar phone e.g. "583" .
 
-### `npm test`
+## SCREENSHOTS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## startup page
 
-### `npm run build`
+![](images/pagelayout.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Ascending Order results
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![](images/ascendorder.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Descending Order results
 
-### `npm run eject`
+![](images/descendorder.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Filter Display
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![](images/filterbyphone.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Functionality
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Once the website is displayed :
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+a) Ascending Order - click on "name" column to sort in ascending order
+b) Descending Order - click on " name " column a second time to display in descending order
+c) Filter - Enter phone number from one of the listed employees in " search " box to display
+that user plus any other user with that same number
